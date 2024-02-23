@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
+@import url('/src/css/header_footer.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 64px;
+    margin: 100px 96px;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #EAEAEA;
+    width: 1248px;
+    border-radius: 10px;
+}
+
+/* Your shelf section */
+.store-details {
+    height: 158px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 781px;
+    padding: 56px 87px;
+}
+
+.store-details_name {
+    font-size: 24px;
+    padding-top: 14px;
+    color: #040075;
+    font-weight: 600;
+}
+
+.store-details_logo {
+    width: 170px;
+    height: 59.068px;
+    flex-shrink: 0;
+}
+
+/* product card details */
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-shrink: 0;
+    padding: 112px 55px;
+    column-gap: 86px;
+    /* shadow */
+    box-shadow: 0px 19px 42px 0px rgba(0, 0, 0, 0.10), 0px 76px 76px 0px rgba(0, 0, 0, 0.09), 0px 170px 102px 0px rgba(0, 0, 0, 0.05), 0px 303px 121px 0px rgba(0, 0, 0, 0.01), 1px 474px 133px 0px rgba(0, 0, 0, 0.00);
+}
+
+.product_image img {
+    height: 440px;
+    width: 440px;
+    margin: 30px;
+
+}
+
+.product-details {
+    width: 571px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.product_name {
+    color: #00312D;
+    font-size: 36px;
+    font-weight: 600;
+    width: 570px;
+}
+
+.product_brand {
+    color: #3A7817;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.price_tag {
+    display: flex;
+    align-items: center;
+    gap: 38.895px;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+.new_price {
+    color: #00312D;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
+
+.old_price {
+    color: rgba(0, 49, 45, 0.50);
+    font-size: 25.751px;
+    font-weight: 500;
+    text-decoration: line-through;
+    display: flex;
+    gap: 10px;
+}
+
+.product-details_line {
+    background: rgba(0, 49, 45, 0.20);
+    width: 518px;
+    height: 1px;
+    padding-right: 53px;
+}
+
+.expiration_text {
+    margin-top: 15px;
+    margin-bottom: 46px;
+    color: #F90000;
+    font-size: 25.93px;
+    font-weight: 600;
+}
+
+.cart_section {
+    display: flex;
+    align-items: center;
+    gap: 38.895px;
+    margin-top: 37px;
+    margin-bottom: 39px;
+}
+
+.add_to_cart {
+    display: flex;
+    width: 422px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #BFF202;
+    border: 0;
+    color: #00312D;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px;
+    gap: 106px;
+}
+
+.add_to_cart img {
+    width: 17.566px;
+    height: 18.615px;
+    flex-shrink: 0;
+    fill: #00312D;
+    margin: 6px;
+}
+
+.save {
+    display: flex;
+    gap: 11px;
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.save img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.location_seen {
+    display: flex;
+    gap: 71px;
+    margin: 39px;
+    color: rgba(0, 49, 45, 0.50);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.location {
+    display: flex;
+    gap: 12px;
+}
+
+.seen {
+    display: flex;
+    gap: 10px;
+}
+
+.product_catalogue {
+    background: none;
+}
+
+.expiry_days_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 35px;
+    flex-shrink: 0;
+}
+
+.expiry_days_title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+#five_days {
+    color: #F90000;
+}
+
+#ten_days {
+    color: #3A7817;
+}
+
+#fifteen_days {
+    color: #3A7817;
+}
+
+.boxes {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    height: 169px;
+    flex-shrink: 0;
+    background: #EAEAEA;
+    filter: drop-shadow(4px 3px 12px rgba(0, 0, 0, 0.05)) drop-shadow(17px 12px 21px rgba(0, 0, 0, 0.04)) drop-shadow(39px 28px 29px rgba(0, 0, 0, 0.03)) drop-shadow(70px 50px 34px rgba(0, 0, 0, 0.01)) drop-shadow(109px 77px 37px rgba(0, 0, 0, 0.00));
+}
+
+.boxes img {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.box_name {
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 33px;
+    margin-bottom: 11px;
+}
+
+.box_price {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 11px;
+}
+
+.box_new_price {
+    display: flex;
+    color: #00312D;
+    font-size: 32px;
+    font-weight: 700;
+    gap: 7px;
+}
+
+.box_old_price {
+    display: flex;
+    color: rgba(0, 49, 45, 0.50);
+    text-decoration: line-through;
+    font-size: 15.89px;
+    font-weight: 500;
+    gap: 7px;
+}
+
+.expiry_days_text {
+    color: #F90000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 768px),
+screen and (max-width: 1024px) {
+    main {
+        margin: 30px 5px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 480px),
+screen and (max-width: 600px) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 34px;
+        margin: 0;
+    }
+
+
+    .product-card {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 12px;
+        justify-items: center;
+    }
+
+    .expiry_days_title {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 19px;
+        margin-left: 100px;
+    }
+
+    .expiry_days_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 35px;
+        flex-shrink: 0;
+        justify-items: center;
+    }
+}

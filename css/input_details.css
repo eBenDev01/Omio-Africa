@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
+@import url('/src/css/header_footer.css');
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D9D9D9;
+  flex-shrink: 0;
+}
+
+main {
+  width: 822px;
+  height: 1119px;
+  flex-shrink: 0;
+  margin: 123px 309px;
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+  border-radius: 10px;
+  background: #EAEAEA;
+}
+header{
+  gap: 161px;
+}
+
+.donate-hero-one {
+  position: relative;
+            width: 1152px; 
+            height: 500px; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+            margin-bottom: 100px; 
+            background-color: #EAEAEA;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+}
+
+.donate-hero-one img{
+  width: 80%;
+  margin: auto;
+            height: -50%; 
+            object-fit: cover;
+            position: absolute;
+            border-radius: 10px;
+            top:-250px ;
+            left: 0;
+            right: 0;
+}
+
+.content{
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  position: absolute;
+  margin-top: 300px;
+  padding-left: 110px;
+  left: 0;
+ 
+}
+
+.donate-hero-one p{
+  font-family: "Inter", sans-serif;
+  padding-top: 350px;
+  padding-left: 110px;
+  padding-right: 110px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.donate-hero-two {
+  width: 1152px;
+  height: auto;
+  text-align: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+  border-radius: 10px;
+  background: #EAEAEA;
+}
+
+
+
+.donate {
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  /* 93.75% */
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 300px;
+  padding-right: 300px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.donate img {
+  width: 30.826px;
+  height: 30.827px;
+  flex-shrink: 0;
+}
+
+.donated_amount {
+  color: #3A7817;
+  display: flex;
+  padding-right: 237px;
+  padding-left: 237px;
+  padding-bottom: 20px;
+  gap: 20px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 30px;
+  /* 54.545% */
+}
+
+.text {
+  margin-right: 279px;
+  margin-left: 279px;
+  margin-bottom: 33px;
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  /* 150% */
+}
+
+.omio_pay {
+  margin-right: 42px;
+  margin-left: 42px;
+  margin-bottom: 95px;
+  width: 738px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #00312D;
+  color: #EAEAEA;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  /* 125% */
+}
+
+.card p {
+  margin-left: 46px;
+  margin-bottom: 21px;
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  /* 150% */
+}
+
+.card input {
+  margin-right: 42px;
+  margin-left: 42px;
+  margin-bottom: 25px;
+  width: 738px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #D9D9D9;
+  ;
+  border: 0;
+}
+
+.card input::placeholder {
+  color: rgba(0, 49, 45, 0.40);
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 53px;
+  padding: 35px;
+
+}
+
+.card button {
+  margin-right: 42px;
+  margin-left: 42px;
+  margin-bottom: 60px;
+  width: 738px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0;
+  background: #BFF202;
+  color: #00312D;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  /* 125% */
+}
+
+.monitor {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+  color: #007DBC;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+
+}
+
+.agreement {
+  margin-left: 141px;
+  padding-bottom: 44px;
+  margin-right: 142px;
+  color: #B2B2B2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 768px), screen and (max-width: 1024px){
+  main {
+    margin: 30px 70px;
+  }
+  header {
+    padding-left: 46px;
+    padding-right: 46px;
+    gap: 50px;
+        box-shadow: none;
+      }
+}
+
+@media screen and (max-width: 480px), screen and (max-width: 600px){
+  main {
+    margin: 50px 70px;
+  }
+  header {
+    padding-left: 36px;
+    padding-right: 36px;
+        box-shadow: none;
+        gap: 50px;
+      }
+}

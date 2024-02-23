@@ -1,0 +1,484 @@
+:root {
+  --dark-green-color: #00312d;
+  --green-color: #3a7817;
+  --light-green-color: #72bf01;
+  --lemon-color: #bff202;
+  --light-color: #d9d9d9;
+  --input-border: #b3b3b3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ********************************Sign Up form**************************** */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif; 
+  background-color: var(--light-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1152px;
+}
+.signup-form {
+  width: 674px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 70px;
+}
+
+.business_signup_container{
+  width: 674px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 70px;
+}
+
+h1 {
+  margin-top: 50px;
+  align-content: center;
+  font-size: 40px;
+}
+
+.singnup-subparagraph{
+  align-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 80%;
+  height: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+.signup-select{
+  margin-top: 30px;
+}
+
+#continueButton {
+  text-decoration: none;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  padding: 20px 235px;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  cursor: pointer;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+#signinButton{
+  text-decoration: none;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 242px;
+  padding-left: 242px;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  cursor: pointer;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#signinButton:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
+#continueButton:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
+p {
+  font-family: "Inter", sans-serif; 
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.sign-in-text{
+  margin-bottom: 40px;
+}
+
+.input-with-icon{
+position: relative;
+}
+
+.input-with-icon input{
+  padding-left: 40px;
+  width: 540px;
+  margin-bottom: 50px;
+  }
+
+  .input-with-icon::before {
+    content: '';
+    background: url('/images/Google\ logo.svg') no-repeat; 
+    background-size: contain; 
+    position: absolute;
+    left: 10px; 
+    top: 25%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+}
+
+.input-email{
+  width: 540px;
+  margin-top: 10px;
+}
+
+.email-sign-in{
+  margin-top: 40px;
+}
+
+.signup-form h1{
+  padding-top: 40px;
+}
+
+.sign-in-text{
+  margin-top: 40px;
+}
+
+
+.horizontal-line-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.horizontal-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.horizontal-line{
+    width: 45%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 20px 0;
+}
+
+/* ********************************Enter Business Email************************************ */
+
+.email-form {
+  width: 674px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+h1 {
+  align-content: center;
+  font-size: 40px;
+}
+
+.setup-subparagraph{
+  align-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 50px;
+  width: 80%;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+#email-btn {
+  margin-top:30px ;
+  height: 60px;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  text-decoration: none;
+  padding: 20px 245px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#email-btn:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
+/* *********************************Verify Code************************************ */
+
+.verify-form {
+  width: 674px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+h1 {
+  align-content: center;
+  font-size: 40px;
+}
+
+.setup-subparagraph{
+  align-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.verify-input {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+.btn-background {
+  height: 60px;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  padding: 20px 250px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+.btn-no-background {
+  height: 60px;
+  color: var(--dark-green-color);
+  padding: 20px 220px;
+  margin-top: 20px;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display:inline-block;
+  white-space: nowrap;
+}
+
+button:hover,.btn-background:hover,.btn-no-background:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
+
+
+/* **************Personal Information********************* */
+
+.personal-information {
+  width: 674px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+h1 {
+  align-content: center;
+  font-size: 40px;
+}
+
+.setup-subparagraph{
+  align-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.verify-input {
+  width: 80%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+.btn-background {
+  height: 60px;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  padding: 20px 245px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pledge{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.myCheckbox{
+  transform: scale(0.8);
+  width: 10%;
+  margin-left: -20px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.pledge p{
+  width: 90%;
+}
+
+.btn-no-background {
+  height: 60px;
+  color: var(--dark-green-color);
+  padding: 20px 220px;
+  margin-top: 20px;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display:inline-block;
+  white-space: nowrap;
+}
+
+button:hover,.btn-background:hover,.btn-no-background:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
+.password-characters{
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+
+/* ***********************Shop-information***************************** */
+
+.container {
+  width: 1152px;
+}
+
+form {
+  width: 674px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input, checkbox {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pledges {
+  margin: 0px;
+  display: flex;
+}
+
+/* Additional styles for the  radio button */
+.input-with-radio {
+  position: relative;
+}
+
+.input-with-radio input[type="text"] {
+  padding-right: 30px; 
+}
+
+.input-with-radio input[type="radio"] {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
+@import url('/src/css/header_footer.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D9D9D9;
+    width: 100%;
+
+}
+
+header {
+    padding-left: 149px;
+    padding-right: 149px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+    margin: 100px 96px;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #EAEAEA;
+    width: 1248px;
+    border-radius: 10px;
+}
+
+.store {
+    height: 158px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 700px;
+    padding: 54px 56px;
+}
+
+.store_name {
+    color: #040075;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 11px;
+}
+
+.store_add_product {
+    flex-shrink: 0;
+    display: flex;
+    gap: 11px;
+    font-size: 24px;
+}
+
+.add_product_text {
+    color: #3A7817;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 11px;
+}
+
+.store_add_product img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.product-details {
+    height: 1171px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-shrink: 0;
+    padding: 84px 83px 61px 56px;
+}
+
+.product-details_image {
+    width: 344px;
+    height: 344px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #CACACA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.product-details img {
+    width: 265px;
+    height: 265px;
+    flex-shrink: 0;
+    margin: 40px;
+
+}
+
+.product-details-form {
+    color: #00312D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-details-form input {
+    border-radius: 10px;
+    border: 1px solid #9F9E9E;
+    border-radius: 10px;
+    background: #EAEAEA;
+    flex-shrink: 0;
+}
+
+.product_name input {
+    width: 714px;
+    height: 88px;
+    margin-top: 10px;
+    margin-bottom: 56px;
+}
+
+.product_description input {
+    width: 714px;
+    height: 233px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.price {
+    display: flex;
+    gap: 32px;
+}
+
+.old_price input {
+    width: 341px;
+    height: 88px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.new_price input {
+    width: 341px;
+    height: 88px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.date {
+    display: flex;
+    gap: 32px;
+}
+
+.date input[type="date"] {
+    color: #00312D;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 20px;
+    padding: 20px;
+}
+
+.expiry_date input {
+    width: 341px;
+    height: 88px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.pickup_date input {
+    width: 341px;
+    height: 88px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.pickup_address input {
+    width: 714px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 41px;
+}
+
+.list_product button {
+    width: 715px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #BFF202;
+    border: 0;
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 768px),
+screen and (max-width: 1024px) {
+    main {
+        margin: 30px 0px;
+        padding: 0px;
+    }
+
+    header {
+        box-shadow: none;
+        gap: 20px;
+        padding-left: 96px;
+    }
+}
+
+@media screen and (max-width: 480px),
+screen and (max-width: 600px) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 34px;
+        margin: 30px 0px;
+        padding: 0px;
+    }
+
+    header {
+        box-shadow: none;
+        gap: 20px;
+        padding-left: 96px;
+    }
+
+    .product-details {
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section {
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}

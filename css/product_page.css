@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
+@import url('/src/css/header_footer.css');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 64px;
+    margin: 100px 96px;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #EAEAEA;
+    width: 1248px;
+    border-radius: 10px;
+}
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-shrink: 0;
+    padding: 112px 55px;
+    column-gap: 86px;
+    /* shadow */
+    box-shadow: 0px 19px 42px 0px rgba(0, 0, 0, 0.10), 0px 76px 76px 0px rgba(0, 0, 0, 0.09), 0px 170px 102px 0px rgba(0, 0, 0, 0.05), 0px 303px 121px 0px rgba(0, 0, 0, 0.01), 1px 474px 133px 0px rgba(0, 0, 0, 0.00);
+}
+
+.product_image img {
+    height: 440px;
+    width: 440px;
+    margin: 30px;
+
+}
+
+.product-details {
+    width: 571px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.product_name {
+    color: #00312D;
+    font-size: 36px;
+    font-weight: 600;
+    width: 570px;
+}
+
+.product_brand {
+    color: #3A7817;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.price_tag {
+    display: flex;
+    align-items: center;
+    gap: 38.895px;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+.new_price {
+    color: #00312D;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
+
+.old_price {
+    color: rgba(0, 49, 45, 0.50);
+    font-size: 25.751px;
+    font-weight: 500;
+    text-decoration: line-through;
+    display: flex;
+    gap: 10px;
+}
+
+.product-details_line {
+    background: rgba(0, 49, 45, 0.20);
+    width: 518px;
+    height: 1px;
+    padding-right: 53px;
+}
+
+.expiration_text {
+    margin-top: 15px;
+    margin-bottom: 46px;
+    color: #F90000;
+    font-size: 25.93px;
+    font-weight: 600;
+}
+
+.cart_section {
+    display: flex;
+    align-items: center;
+    gap: 38.895px;
+    margin-top: 37px;
+    margin-bottom: 39px;
+}
+
+.add_to_cart {
+    display: flex;
+    width: 422px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #BFF202;
+    border: 0;
+    color: #00312D;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px;
+    gap: 106px;
+}
+
+.add_to_cart img {
+    width: 17.566px;
+    height: 18.615px;
+    flex-shrink: 0;
+    fill: #00312D;
+    margin: 6px;
+}
+
+.save {
+    display: flex;
+    gap: 11px;
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.save img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.location_seen {
+    display: flex;
+    gap: 71px;
+    margin: 39px;
+    color: rgba(0, 49, 45, 0.50);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.location {
+    display: flex;
+    gap: 12px;
+}
+
+.seen {
+    display: flex;
+    gap: 10px;
+}
+
+/* store details */
+.store-details {
+    height: 158px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 570px;
+    padding: 50px 87px;
+}
+
+.store-details_name {
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    padding-top: 14px;
+}
+
+.store-details_text {
+    color: rgba(4, 0, 117, 0.50);
+    font-weight: 400;
+
+}
+
+.store_name {
+    color: #040075;
+    font-weight: 600;
+}
+
+.store-details_logo {
+    width: 170px;
+    height: 59.068px;
+    flex-shrink: 0;
+}
+
+/* product description */
+.product-description {
+    display: inline-flex;
+    padding: 39px 82px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: #00312D;
+}
+
+.product-description_title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.product-description_details {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.product-description_line {
+    width: 1084px;
+    height: 1px;
+    background: rgba(0, 49, 45, 0.20);
+    margin: 24px 0;
+}
+
+
+/* Delivery options  */
+
+.delivery-options {
+    padding: 39px 82px;
+}
+
+.delivery-options_text {
+    color: #00312D;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.delivery-options_line {
+    width: 1084px;
+    height: 1px;
+    background: rgba(0, 49, 45, 0.20);
+    margin-top: 29px;
+    margin-bottom: 52px;
+}
+
+.delivery-type {
+    display: flex;
+    gap: 234px;
+    margin-bottom: 27px;
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.door-delivery_text {
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    line-height: normal;
+
+}
+
+.pickup-station_text {
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    line-height: normal;
+
+}
+
+.delivery-type time {
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.delivery-fees {
+    display: flex;
+    color: #00312D;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.delivery-fees_text {
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+/* important information section */
+.important-information {
+    background: #00312D;
+    height: 390px;
+    flex-shrink: 0;
+    padding: 39px 82px;
+    padding-bottom: 43px;
+    gap: 10px;
+}
+
+.important-information_title {
+    color: #BFF202;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.important-information_line {
+    background: rgba(217, 217, 217, 0.15);
+    width: 1084px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.important-information_details {
+    color: #D9D9D9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 768px), screen and (max-width: 1024px){
+    main {
+        margin: 30px 5px;
+            padding: 0px;
+    }
+}
+
+@media screen and (max-width: 480px), screen and (max-width: 600px){
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 34px;
+        margin: 5px;
+    }
+
+    .product-card {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 12px;
+        justify-items: center;
+    }
+
+    section{
+        justify-items: center;
+    }
+}

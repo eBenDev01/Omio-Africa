@@ -1,0 +1,121 @@
+header {
+  color: #EAEAEA;
+  padding-top: 38px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  box-shadow: 0px 19px 42px 0px rgba(0, 0, 0, 0.10), 0px 76px 76px 0px rgba(0, 0, 0, 0.09), 0px 170px 102px 0px rgba(0, 0, 0, 0.05), 0px 303px 121px 0px rgba(0, 0, 0, 0.01), 1px 474px 133px 0px rgba(0, 0, 0, 0.00);
+}
+
+.logo {
+  width: 188px;
+  height: 60px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  height: 76px;
+  width: 516px;
+  padding: 26px 50px;
+  border-color: #3a7817;
+  border-width: 3px;
+  border-radius: 10px;
+  font-weight: 200;
+  color: 969696;
+  font-size: 20px;
+  outline: none;
+  background-color: #d9d9d9;
+}
+
+.search-icon {
+  width: 68px;
+  height: 76px;
+  background-color: #3a7817;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  color: #00312d;
+  text-decoration: none;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.links {
+  font-weight: 200;
+  color: 969696;
+  font-size: 20px;
+  gap: 20px;
+}
+
+#footer {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 100px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #00312d;
+}
+
+.social-icons {
+  padding-top: 34px;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.footer-nav-links {
+  padding-top: 44px;
+}
+
+.nav-links {
+  margin: 0 25px;
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.footer-image {
+  margin-top: 44px;
+  padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 768px),
+screen and (max-width: 1024px) {
+
+  header {
+    box-shadow: none;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px),
+screen and (max-width: 600px) {}
