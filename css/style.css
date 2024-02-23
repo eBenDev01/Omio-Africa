@@ -54,11 +54,16 @@ nav ul li a {
 }
 
 nav ul li a.btn-dark {
-  color: var(--light-color);
-  background-color: var(--green-color);
+  color: var(--green-color);
+  /* background-color: var(--green-color); */
 }
 
 nav ul li a.btn-dark:hover {
+  background-color: var(--light-green-color);
+  transition: all 400ms;
+}
+
+nav ul li a:hover{
   background-color: var(--light-green-color);
   transition: all 400ms;
 }

@@ -28,8 +28,24 @@ body {
 .container {
   width: 1152px;
 }
-
 .signup-form {
+  width: 674px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 70px;
+}
+
+.business_signup_container{
   width: 674px;
   height: 500px;
   background-color: #fff;
@@ -39,7 +55,10 @@ body {
   flex-direction:column;
   align-items:flex-start;
   justify-content: center;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
   padding: 70px;
 }
 
@@ -82,6 +101,27 @@ margin-top: 30px;
 margin-bottom: 30px;
 }
 
+#signinButton{
+  text-decoration: none;
+  background-color: var(--light-green-color);
+  color: var(--dark-green-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 242px;
+  padding-left: 242px;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  cursor: pointer;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#signinButton:hover{
+  background-color: var(--lemon-color);
+  transition: all 400ms;
+}
+
 #continueButton:hover{
   background-color: var(--lemon-color);
   transition: all 400ms;
@@ -94,7 +134,7 @@ p {
 }
 
 .sign-in-text{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .input-with-icon{
@@ -109,7 +149,7 @@ position: relative;
 
   .input-with-icon::before {
     content: '';
-    background: url('/src/assets/Google\ logo.svg') no-repeat; 
+    background: url('/images/Google\ logo.svg') no-repeat; 
     background-size: contain; 
     position: absolute;
     left: 10px; 
@@ -118,6 +158,24 @@ position: relative;
     width: 20px; 
     height: 20px; 
 }
+
+.input-email{
+  width: 540px;
+  margin-top: 10px;
+}
+
+.email-sign-in{
+  margin-top: 40px;
+}
+
+.signup-form h1{
+  padding-top: 40px;
+}
+
+.sign-in-text{
+  margin-top: 40px;
+}
+
 
 .horizontal-line-container{
   display: flex;
@@ -274,8 +332,13 @@ button:hover,.btn-background:hover,.btn-no-background:hover{
   flex-direction:column;
   align-items:flex-start;
   justify-content: center;
-  margin: 0 auto;
-  padding: 70px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
 }
 
 h1 {
@@ -303,13 +366,31 @@ h1 {
   height: 60px;
   background-color: var(--light-green-color);
   color: var(--dark-green-color);
-  padding: 20px 250px;
+  padding: 20px 245px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  
+}
+
+.pledge{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.myCheckbox{
+  transform: scale(0.8);
+  width: 10%;
+  margin-left: -20px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.pledge p{
+  width: 90%;
 }
 
 .btn-no-background {
@@ -386,13 +467,13 @@ input, checkbox {
   display: flex;
 }
 
-/* Additional styles for the integrated radio button */
+/* Additional styles for the  radio button */
 .input-with-radio {
   position: relative;
 }
 
 .input-with-radio input[type="text"] {
-  padding-right: 30px; /* Adjust padding for radio button */
+  padding-right: 30px; 
 }
 
 .input-with-radio input[type="radio"] {
