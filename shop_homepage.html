@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, old-scale=1.0">
-    <title>Your Shelf</title>
-    <link rel="stylesheet" href="css/your_shelf.css">
-    <link rel="stylesheet" href="css/header_footer.css">
+    <title>Shop Homepage</title>
+    <link rel="stylesheet" href="css/shop_homepage.css">
 </head>
 
 <body>
@@ -16,9 +15,7 @@
             <img src="/src/assets/Group.png" alt="Hamburger">
         </div> -->
         <div class="logo">
-            <a href="index.html">
-            <img src="images/logo.svg" alt="Omio Africa logo">
-        </a>
+            <a href="index.html"><img src="images/logo.svg" alt="Omio Africa logo"></a>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search Products">
@@ -34,94 +31,314 @@
         </div>
     </header>
     <main>
-        <!-- Shelf -->
-        <section class="store-details">
-            <div class="store-details_name">
-                <p class="store_name">
-                    Your Shelf
-                </p>
-            </div>
-            <div class="store-details_logo">
-                <img src="images/Biz logo.svg" alt="Biz logo">
+
+      <section class="upper">
+          <!-- side bar -->
+
+          <section class="sidebar">
+            <div class="side_links">
+                <div class="sidebar_bakery">
+                    <img src="images/bakery.svg" alt="bakery">
+                    <a href="">Bakery</a>
+                </div>
+                <div class="sidebar_dairy">
+                    <img src="images/dairy.svg" alt="">
+                    <a href="">Dairy and Eggs</a>
+                </div>
+                <div class="sidebar_meat">
+                    <img src="images/meat.svg" alt="">
+                    <a href="http://">Meat and Seafood</a>
+                </div>
+                <div class="sidebar_frozen">
+                    <img src="images/frozen.svg" alt="">
+                    <a href="">Frozen Foods</a>
+                </div>
+                <div class="sidebar_canned">
+                    <img src="images/canned.svg" alt="">
+                    <a href="http://">Canned and Packaged Food</a>
+                </div>
+                <div class="sidebar_beverages">
+                    <img src="images/beverages.svg" alt="">
+                    <a href="http://">Beverages</a>
+                </div>
+                <div class="sidebar_snacks">
+                    <img src="images/snacks.svg" alt="">
+                    <a href="http://">Snacks and Confectionery</a>
+                </div>
+                <div class="sidebar_condiments">
+                    <img src="images/condiment.svg" alt="">
+                    <a href="http://">Condiments and Sauces</a>
+                </div>
+                <div class="sidebar_spices">
+                    <img src="images/spices.svg" alt="">
+                    <a href="http://">Spices and Herbs</a>
+                </div>
+                <div class="sidebar_cereal">
+                    <img src="images/cereal.svg" alt="">
+                    <a href="http://">Cereal and Breakfast Foods</a>
+                </div>
+                <div class="sidebar_deli">
+                    <img src="images/deli.svg" alt="">
+                    <a href="http://">Deli and Prepared Foods</a>
+                </div>
+                <div class="sidebar_health">
+                    <img src="images/health.svg" alt="">
+                    <a href="http://">Health and Wellness</a>
+                </div>
+                <div class="sidebar_household">
+                    <img src="images/household.svg" alt="">
+                    <a href="http://">Household and Cleaning</a>
+                </div>
+                <div class="sidebar_personal">
+                    <img src="images/personal.svg" alt="">
+                    <a href="http://">Personal Care</a>
+                </div>
+                <div class="sidebar_baby">
+                    <img src="images/baby.svg" alt="">
+                    <a href="http://">Baby and Childcare</a>
+                </div>
+                <div class="sidebar_pet">
+                    <img src="images/pet.svg" alt="">
+                    <a href="http://">Pet Supplies</a>
+                </div>
             </div>
         </section>
 
-        <!-- product card -->
-        <section class="product-card">
-            <div class="product-card_image">
-                <div class="product_image">
-                    <img src="images/product_image.png" alt="">
-                </div>
+        <!-- gallery-->
+        <section class="gallery">
+            <div class="gallery_left">
+                <p class="big_text">Save your <br> Pocket and <br> the Planet.</p>
+                <p class="small_text">OMIO Market Combo.</p>
+                <p class="new_price">N 30,000</p>
+                <p class="old_price">N 70,000</p>
+                <button>Expires in 15 Days</button>
             </div>
-            <div class="product-details">
-                <div class="product-details_name">
-                    <div class="product_name">
-                        <p>
-                            Castania CASTANI ALMONDS TIN 170G x1
-                        </p>
-                    </div>
-                    <div class="product_brand">
-                        <p class="brand_title">
-                            Brand:
-                        </p>
-                        <p>
-                            Castania
-                        </p>
-                    </div>
-                    <div class="product-details_line"></div> <!-- The line element -->
-                </div>
-                <div class="product_price">
-                    <div class="price_tag">
-                        <div class="new_price">
-                            <p class="new_price_amount">
-                            <p class="currency_symbol">
-                                N
+            <div class="gallery_right">
+                <img src="images/groceries 1.svg" alt="Groceries">
+                <button>Shop now</button>
+            </div>
+        </section>
+      </section>
+
+        <!-- Today's category -->
+        <section class="product_catalogue">
+            <div class="deal_title" id="today">
+                <p>Today’s Deals </p>
+                <p class="see_all">SEE ALL ></p>
+            </div>
+            
+
+            <!-- Grid 1 -->
+            <div class="deal_grid">
+                <div class="deal" id="today_1">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <img src="images/Dano.png" alt="Dano milk">
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Dano Sachet 200g
                             </p>
-                            <p class="amount">
-                                920
-                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        2,000
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        14,170
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
                             </p>
                         </div>
-                        <div class="old_price">
-                            <p class="old_price_amount">
-                            <p class="currency_symbol">
-                                N
+                    </div>
+                </div>
+
+                <!-- Grid 2 -->
+                <div class="deal" id="today_2">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <img src="images/Indomie.png" alt="Indomie">
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Indomie Regular...
                             </p>
-                            <p class="old_amount">
-                                14,491
-                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        1,200
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        5,700
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
                             </p>
                         </div>
                     </div>
-                    <div class="product_expiration">
-                        <p class="expiration_text">
-                            Expires in <time class="expiry_date">9</time> Days
-                        </p>
-                    </div>
-                    <div class="product-details_line"></div> <!-- The line element -->
                 </div>
-                <div class="cart_section">
-                    <button class="add_to_cart"><img src="images/shopping_cart.svg" alt="Shopping Cart">Add to
-                        Cart</button>
-                    <div class="save">
-                        <img src="images/Save_icon.svg" alt="">
-                        <p>
-                            Save
-                        </p>
+
+                <!-- Grid 3 -->
+                <div class="deal" id="today_3">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <img src="images/Ander.png" alt="Ander’s Pure ">
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Ander’s Pure Ma...
+                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        970
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        8,000
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="location_seen">
-                    <div class="location">
-                        <img src="images/Location.svg" alt="Location">
-                        <p>
-                            500m
-                        </p>
+
+                <!-- Grid 4 -->
+                <div class="deal" id="today_4">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <img src="images/terrra oil.png" alt="Golden Terra So">
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Golden Terra So...
+                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        300
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        1,530
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
+                            </p>
+                        </div>
                     </div>
-                    <div class="seen">
-                        <img src="images/seen.svg" alt="">
-                        <p>
-                            896
-                        </p>
+
+                </div>
+
+                <!-- Grid 5 -->
+                <div class="deal" id="today_5">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <img src="images/chivita.png" alt="Chivita Power of...">
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Chivita Power of...
+                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        310
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        1,300
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid 6 -->
+                <div class="deal" id="today_6">
+                    <div class="boxes">
+                        <div class="box_image">
+                            <a href="product_page.html">
+                            <img src="images/castania.png" alt="Castania CASTA...">
+                        </a>
+                        </div>
+                        <div class="box_details">
+                            <p class="box_name">
+                                Castania CASTA...
+                            </p>
+                            <div class="box_price">
+                                <div class="box_new_price">
+                                    <p class="new_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="new_price_amount">
+                                        920
+                                    </p>
+                                </div>
+                                <div class="box_old_price">
+                                    <p class="old_price_symbol">
+                                        N
+                                    </p>
+                                    <p class="old_price_amount">
+                                        14,491
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="deal_text">
+                                Expires in 5 Days
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,233 +346,14 @@
 
         <!-- Expires in 5 days category -->
         <section class="product_catalogue">
-            <p class="expiry_days_title" id="five_days">
-                Expires in 5 Days
-            </p>
-
-            <!-- Grid 1 -->
-            <div class="expiry_days_grid">
-                <div class="expiry_days" id="five_days_1">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/Dano.png" alt="Dano milk">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Dano Sachet 200g
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        2,000
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        14,170
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Grid 2 -->
-                <div class="expiry_days" id="five_days_2">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/Indomie.png" alt="Indomie">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Indomie Regular...
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        1,200
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        5,700
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Grid 3 -->
-                <div class="expiry_days" id="five_days_3">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/Ander.png" alt="Ander’s Pure ">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Ander’s Pure Ma...
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        970
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        8,000
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Grid 4 -->
-                <div class="expiry_days" id="five_days_4">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/terrra oil.png oil.png" alt="Golden Terra So">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Golden Terra So...
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        300
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        1,530
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Grid 5 -->
-                <div class="expiry_days" id="five_days_5">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/chivita.png" alt="Chivita Power of...">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Chivita Power of...
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        310
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        1,300
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Grid 6 -->
-                <div class="expiry_days" id="five_days_6">
-                    <div class="boxes">
-                        <div class="box_image">
-                            <img src="images/castania.png" alt="Castania CASTA...">
-                        </div>
-                        <div class="box_details">
-                            <p class="box_name">
-                                Castania CASTA...
-                            </p>
-                            <div class="box_price">
-                                <div class="box_new_price">
-                                    <p class="new_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="new_price_amount">
-                                        920
-                                    </p>
-                                </div>
-                                <div class="box_old_price">
-                                    <p class="old_price_symbol">
-                                        N
-                                    </p>
-                                    <p class="old_price_amount">
-                                        14,491
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="expiry_days_text">
-                                Expires in 5 Days
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="deal_title" id="five-days">
+                <p>5-Day Deals </p>
+                <p class="see_all">SEE ALL ></p>
             </div>
-        </section>
-
-        <!-- Expires in 10 days category -->
-        <section class="product_catalogue">
-            <p class="expiry_days_title" id="ten_days">
-                Expires in 10 Days
-            </p>
 
             <!-- Grid 1 -->
-            <div class="expiry_days_grid">
-                <div class="expiry_days" id="ten_days_1">
+            <div class="deal_grid">
+                <div class="deal" id="five-days_1">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Dano.png" alt="Dano milk">
@@ -382,7 +380,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -390,7 +388,7 @@
                 </div>
 
                 <!-- Grid 2 -->
-                <div class="expiry_days" id="ten_days_2">
+                <div class="deal" id="five-days_2">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Indomie.png" alt="Indomie">
@@ -417,7 +415,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -425,7 +423,7 @@
                 </div>
 
                 <!-- Grid 3 -->
-                <div class="expiry_days" id="ten_days_3">
+                <div class="deal" id="five-days_3">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Ander.png" alt="Ander’s Pure ">
@@ -452,7 +450,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -460,7 +458,7 @@
                 </div>
 
                 <!-- Grid 4 -->
-                <div class="expiry_days" id="ten_days_4">
+                <div class="deal" id="five-days_4">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/terrra oil.png" alt="Golden Terra So">
@@ -487,7 +485,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -496,7 +494,7 @@
                 </div>
 
                 <!-- Grid 5 -->
-                <div class="expiry_days" id="ten_days_5">
+                <div class="deal" id="five-days_5">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/chivita.png" alt="Chivita Power of...">
@@ -523,7 +521,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -531,7 +529,7 @@
                 </div>
 
                 <!-- Grid 6 -->
-                <div class="expiry_days" id="ten_days_6">
+                <div class="deal" id="five-days_6">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/castania.png" alt="Castania CASTA...">
@@ -558,7 +556,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 10 Days
                             </p>
                         </div>
@@ -567,16 +565,17 @@
             </div>
         </section>
 
-        <!-- Expires in 15 days category -->
+        <!-- Expires in 1o days category -->
         <section class="product_catalogue">
-            <p class="expiry_days_title" id="fifteen_days">
-                Expires in 15 Days
-            </p>
+            <div class="deal_title" id="ten-days">
+                <p>10-Day Deals </p>
+                <p class="see_all">SEE ALL ></p>
+            </div>
 
 
             <!-- Grid 1 -->
-            <div class="expiry_days_grid">
-                <div class="expiry_days" id="fifteen_days_1">
+            <div class="deal_grid">
+                <div class="deal" id="ten-days_1">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Dano.png" alt="Dano milk">
@@ -603,7 +602,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
@@ -611,7 +610,7 @@
                 </div>
 
                 <!-- Grid 2 -->
-                <div class="expiry_days" id="fifteen_days_2">
+                <div class="deal" id="ten-days_2">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Indomie.png" alt="Indomie">
@@ -638,7 +637,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
@@ -646,7 +645,7 @@
                 </div>
 
                 <!-- Grid 3 -->
-                <div class="expiry_days" id="fifteen_days_3">
+                <div class="deal" id="ten-days_3">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/Ander.png" alt="Ander’s Pure ">
@@ -673,7 +672,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
@@ -681,7 +680,7 @@
                 </div>
 
                 <!-- Grid 4 -->
-                <div class="expiry_days" id="fifteen_days_4">
+                <div class="deal" id="ten-days_4">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/terrra oil.png" alt="Golden Terra So">
@@ -708,7 +707,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
@@ -717,7 +716,7 @@
                 </div>
 
                 <!-- Grid 5 -->
-                <div class="expiry_days" id="fifteen_days_5">
+                <div class="deal" id="ten-days_5">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/chivita.png" alt="Chivita Power of...">
@@ -744,7 +743,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
@@ -752,7 +751,7 @@
                 </div>
 
                 <!-- Grid 6 -->
-                <div class="expiry_days" id="fifteen_days_6">
+                <div class="deal" id="ten-days_6">
                     <div class="boxes">
                         <div class="box_image">
                             <img src="images/castania.png" alt="Castania CASTA...">
@@ -779,13 +778,18 @@
                                     </p>
                                 </div>
                             </div>
-                            <p class="expiry_days_text">
+                            <p class="deal_text">
                                 Expires in 15 Days
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="omio_africa">
+            <p class="omio_africa_title">OMIO Africa</p>
+            <p class="omio_africa_text">Omio Africa envisions a world where surplus food feeds communities instead of contributing to waste. We aim to create a seamless, inclusive platform that not only transforms the way we deal surplus food but also fosters a culture of giving. We aspire to be a driving force in the fight against hunger, leveraging technology to build bridges between businesses, low-income individuals, and charitable organizations.</p>
         </section>
     </main>
     <!-- footer starts here -->

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Dashboard</title>
+    <link rel="stylesheet" href="css/donor_dashboard.css">
+</head>
+
+<body>
+    <!-- main section -->
+    <main>
+        <!-- Header -->
+        <header>
+            <!-- left side of the header -->
+            <div class="header_left">
+                <div class="welcome">
+                    <p>Welcome,</p>
+                    <p>Danlitiny</p>
+                </div>
+                <div class="date_time">
+                    <div class="date">
+                        30 January, 2024
+                    </div>
+                    <div class="divider">
+                        |
+                    </div>
+                    <div class="time">
+                        1:46AM
+                    </div>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="icons">
+                    <div class="message">
+                        <img src="images/message.svg" alt="">
+                    </div>
+                    <div class="notification">
+                        <img src="images/Notification.svg" alt="">
+                    </div>
+                </div>
+                <div class="search_bar">
+                    <img src="images/search.svg" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </header>
+
+        <!-- sidebar -->
+        <section class="sidebar">
+            <div class="sidebar_logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="links">
+                <div class="sidebar_dashboard">
+                    <img src="images/dashboard.svg" alt="dashboard">
+                    <a href="">Dashboard</a>
+                </div>
+                <div class="sidebar_profile">
+                    <img src="images/profile.svg" alt="">
+                    <a href="">Profile</a>
+                </div>
+                <div class="sidebar_payment">
+                    <img src="images/payment.svg" alt="">
+                    <a href="http://">Payment Method</a>
+                </div>
+                <div class="sidebar_history">
+                    <img src="images/history.svg" alt="">
+                    <a href="http://">History and Tax Receipt</a>
+                </div>
+                <div class="sidebar_monitor">
+                    <img src="images/monitor.svg" alt="">
+                    <a href="">Monitor Donations</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- profile image -->
+        <section class="profile_image">
+            <img class="eclipse" src="images/Ellipse.svg" alt="">
+            <img class="profile_image" src="images/profile_picture.png" alt="">
+        </section>
+
+        <!-- Personal information -->
+        <section class="container">
+            <div class="container_grid">
+                <div class="title">
+                    <p class="personal_information">
+                        Personal Information
+                    </p>
+                    <p class="information_subtitle">
+                        Input personal details below
+                    </p>
+                </div>
+                <div class="the_grid">
+                    <div class="grid">
+                        <label for="first_name">First Name*</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="input first name" required>
+                    </div>
+                    <div class="grid">
+                        <label for="last_name">Last Name*</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="input last name" required>
+                    </div>
+                    <div class="grid">
+                        <label for="email_address">Email Address*</label>
+                        <input type="email" name="email_address" id="email_address" placeholder="input Email address"
+                            required>
+                    </div>
+                    <div class="grid">
+                        <label for="address">Address*</label>
+                        <input type="text" name="address" id="address" placeholder="input address" required>
+                    </div>
+                    <div class="grid">
+                        <label for="tax_id">Home Tax ID*</label>
+                        <input type="text" name="tax_id" id="tax_id" placeholder="input home tax ID" required>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="save">
+                    Save
+                </button>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

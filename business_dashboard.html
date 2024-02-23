@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Dashboard</title>
+    <link rel="stylesheet" href="css/business_dashboard.css">
+</head>
+<body>
+    <!-- main section -->
+    <main>
+        <!-- Header -->
+        <header>
+            <!-- left side of the header -->
+            <div class="header_left">
+                <div class="welcome">
+                    <p>Welcome,</p>
+                    <p>NGFA</p>
+                </div>
+                <div class="date_time">
+                    <div class="date">
+                        30 January, 2024
+                    </div>
+                    <div class="divider">
+                        |
+                    </div>
+                    <div class="time">
+                        1:46AM 
+                    </div>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="icons">
+                    <div class="message">
+                        <img src="images/message.svg" alt="">
+                    </div>
+                    <div class="notification">
+                        <img src="images/Notification.svg" alt="">
+                    </div>
+                </div>
+                <div class="search_bar">
+                    <img src="images/search.svg" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </header>
+        
+    <!-- sidebar -->
+    <section class="sidebar">
+        <div class="sidebar_logo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="links">
+            <div class="sidebar_dashboard">
+                <img src="images/dashboard.svg" alt="dashboard">
+                <a href="">Dashboard</a>
+            </div>
+            <div class="sidebar_add">
+                <img src="images/add_product.svg" alt="">
+                <a href="Product_upload.html">Add Products</a>
+            </div>
+            <div class="sidebar_promotiion">
+                <img src="images/promotions.svg" alt="">
+                <a href="http://">Promotions</a>
+            </div>
+            <div class="sidebar_advertise">
+                <img src="images/advertise.svg" alt="">
+                <a href="http://">Advertise Products</a>
+            </div>
+            <div class="sidebar_account">
+                <img src="images/account.svg" alt="">
+                <a href="">Account Statment</a>
+            </div>
+        </div>
+        <img src="images/Line 22.svg" alt="" class="links_divider">
+        <div class="other_links">
+            <div class="choose_shop">
+                <img src="images/choose_shop.svg" alt="">
+                <a href="http://">Choose Shop</a>
+            </div>
+            <div class="shop_name">
+                <img class="shop_logo" src="images/NGFA Biz Logo.svg" alt="">
+                <a href="">NGFA</a>
+                <img id="arrow_down_1" src="images/arrow_down.svg" alt="">
+            </div>
+            <div class="shop_web">
+                <p>ngfamegastore@dctp.com</p>
+            </div>
+
+        </div>
+    </section>
+    
+       <section class="main_section">
+
+        <!-- information cards-->
+            <section class="information_cards">
+                <div class="information">
+                   <div class="information_icon">
+                    <img src="images/shop_information.svg" alt="" class="ellipse_icon">
+                    <img src="/src/assets/Ellipse 5 (1).svg" alt="" class="ellipse">
+                   </div>
+                    <p class="card_title">Shop <p>Information</p></p>
+                    <img src="images/Line 22.svg" alt="" class="divider">
+                    <div class="pending">
+                        <img src="images/pending.svg" alt="">
+                        <p> PENDING </p>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <div class="information_icon">
+                        <img src="images/business_information.svg" alt=""class="ellipse_icon">
+                        <img src="images/Ellipse 5 (1).svg" alt="" class="ellipse">
+                    </div>
+                    <p class="card_title">Business <p>Information</p></p>
+                    <img src="images/Line 22.svg" alt="" class="divider">
+                    <div class="pending">
+                        <img src="images/pending.svg" alt="">
+                        <p> PENDING </p>
+                    </div>
+                </div>
+                
+                <div class="information">
+                    <div class="information_icon">
+                        <img src="images/payment_information.svg" alt="" class="ellipse_icon">
+                        <img src="images/Ellipse 5 (1).svg" alt="" class="ellipse">
+                       </div>
+                    <p class="card_title">Payment <p>Information</p></p>
+                    <img src="images/Line 22.svg" alt="" class="divider">
+                    <div class="pending">
+                        <img src="images/pending.svg" alt="">
+                        <p> PENDING </p>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <div class="information_icon">
+                        <img src="images/shipping_information.svg" alt="" class="ellipse_icon">
+                        <img src="images/Ellipse 5 (1).svg" alt="" class="ellipse">
+                       </div>
+                    <p class="card_title">Shipping <p>Information</p></p>
+                    <img src="images/Line 22.svg" alt="" class="divider">
+                    <div class="pending">
+                        <img src="images/pending.svg" alt="">
+                        <p> PENDING </p>
+                    </div>
+                </div>
+            </section>
+
+                <!-- Account details -->
+            <section class="container">
+                <div class="container_grid">
+                    <div class="title">
+                        <p class="first_title">
+                            Account Details
+                        </p>
+                        <p class="subtitle">
+                            Seller account information
+                        </p>
+                    </div>
+                    <div class="the_grid">
+                        <div class="grid">
+                            <label for="account_email">Account Email*</label>
+                            <input type="email" name="account_email" id="account_email" placeholder="ngfamegastore@dctp.com" required>
+                        </div>
+                        <div class="grid">
+                            <label for="account_phone">Account Phone*</label>
+                            <input type="number" name="account_phone" id="account_phone" placeholder=" +2348100012345" required>
+                        </div>
+                        <div class="grid">
+                            <label for="state">State/City of Registration*</label>
+                            <input type="text" name="state" id="state" placeholder="Lagos" required>
+                        </div>
+                        <div class="grid">
+                            <label for="account_type">Account Type*</label>
+                            <input type="text" name="account_type" id="account_type" placeholder="Business" required>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                    <!-- Shop Details -->
+            <section class="container">
+                <div class="container_grid">
+                    <div class="title">
+                        <p class="first_title">
+                            Shop Details
+                        </p>
+                        <p class="subtitle">
+                            Manage your OMIO shop below
+                        </p>
+                    </div>
+                    <div class="the_grid">
+                        <div class="grid">
+                            <label for="first_name">Shop Name*</label>
+                            <input type="text" name="shop_name" id="shop_name" placeholder="NGFA Mega Store" required>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <!-- Customer care details -->
+            <section class="container">
+                <div class="container_grid">
+                    <div class="title">
+                        <p class="first_title">
+                            Customer Care Details
+                        </p>
+                        <p class="subtitle">
+                            Please provide details of your customer support. 
+                        </p>
+                    </div>
+                    <div class="the_grid">
+                        <div class="grid">
+                            <label for="customer_care_name">Customer Care Name</label>
+                            <input type="text" name="customer_care_name" id="customer_care_name" placeholder="Center name or rep name">
+                        </div>
+                        <div class="grid">
+                            <label for="customer_care_phone">Customer Care Phone</label>
+                            <input type="text" name="customer_care_phone" id="customer_care_phone">
+                        </div>
+                        <div class="grid">
+                            <label for="customer_care_email">Customer Care Email</label>
+                            <input type="email" name="customer_care_email" id="customer_care_email" >
+                        </div>
+                        <div class="grid">
+                            <label for="address_1">Address Line 1</label>
+                            <input type="text" name="address_1" id="address_1" placeholder="Floor/House/Apartment No, etc">
+                        </div>
+                        <div class="grid">
+                            <label for="address_2">Address Line 2</label>
+                            <input type="text" name="address_2" id="address_2" placeholder="Street/Block/Number etc">
+                        </div>
+                        <div class="grid">
+                            <label for="city_town">City / Town*</label>
+                            <input type="text" name="city_town" id="city_town" placeholder="or District/Province etc" >
+                        </div>
+                        <div class="grid">
+                            <label for="state_region">State / Region*</label>
+                            <input type="text" name="city_town" id="city_town">
+                        </div>
+                        <div class="grid">
+                            <label for="postal_code">Pin code / Postal Code</label>
+                            <input type="text" name="postal_code" id="postal_code" placeholder="or Postal code" >
+                        </div>
+                        <div class="grid">
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country" placeholder="country" >
+                            <img id="arrow_down_2" src="images/arrow_down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div class="button">
+                <button class="save">
+                    Save
+                </button>
+            </div>
+        </section>
+       </section>
+    </main>
+    
+</body>
+</html>
