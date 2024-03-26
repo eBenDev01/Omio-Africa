@@ -50,7 +50,7 @@ main {
 
 .side_links {
     /* width: 287px; */
-    height: 312px;
+    /* height: 312px; */
     margin-top: 50px;
     display: grid;
     gap: 5px;
